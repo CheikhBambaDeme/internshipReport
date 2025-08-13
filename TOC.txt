@@ -1,13 +1,13 @@
 Table of content
 
-Introduction
-1. Study Framework
-2. Context and problematic
-3. Methodology and means implemented
-4. Presentation and analysis of results
-5. Discussion and prospects
-Conclusion
-Bibliographic references
-List of appendices
-appendices
+1. Introduction
+2. Study Framework
+3. Context and problematic
+4. Methodology and means implemented
+5. Presentation and analysis of results
+6. Discussion and prospects
+7. Conclusion
+8. Bibliographic references
+9. List of appendices
+10. appendices
  
