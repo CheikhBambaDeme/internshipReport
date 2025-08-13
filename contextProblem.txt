@@ -1,0 +1,55 @@
+Context and General Problem of the Internship
+Clinical trials are carried out in a highly regulated environment where the reliability of data is essential. Even a small mistake in data collection or interpretation can have serious consequences on the study results. This is why Clinical Data Managers (CDMs) spend a lot of time checking documents and verifying that the data they record is correct.
+
+The downside is that this process takes time. The longer it takes, the more it costs the sponsor of the study, which can make the company less competitive and even result in lost contracts. To save time, many companies turn to specialized software solutions. These tools can speed up certain tasks and reduce costs, but they also have drawbacks: they can be expensive, might not meet all the company’s needs, and can create a dependency on external providers.
+
+Building internal tools solves part of this problem. They can be adapted to the company’s way of working, avoid unnecessary costs, and reduce dependence on other companies. My role at IDDI was to develop this type of solution, using my skills in data engineering and artificial intelligence to help CDMs work more efficiently. During my internship, I worked on two main projects.
+
+Project 1: Study Overview and Data Validation Tool
+In a clinical trial, data is collected through an Electronic Data Capture (EDC) system. There are several EDC providers, but during my internship I only worked with Medidata Rave. I didn’t have direct access to the platform; instead, I worked with Excel files exported from it.
+
+Each study had one Excel file containing different sheets with information about the study. The main ones were:
+
+CRFDraft: The name of the study and the first form to complete.
+
+Forms: The list of form codes (OIDs) and their names (e.g., RAND = Randomization).
+
+Fields: The list of field codes and their meanings (e.g., AESDTH = “Did the adverse event result in death?”).
+
+Folder: The codes for visits or folders (e.g., D1 = Day 1).
+
+DataDictionariesEntries: A translation table for certain codes (e.g., Y = Yes).
+
+Matrices: Sheets showing which forms are used in which visits. For example, “Matrix1#D1” lists all forms for Day 1, with an “X” marking those that are used.
+
+Checks: Rules to validate data, each with a unique name.
+
+CheckSteps: The details of each check, broken into individual conditions.
+
+CheckActions: The actions to perform if a check is valid (e.g., add a pregnancy form if the patient is female).
+
+Objective:
+The goal of this project was to create a web tool that could:
+
+Produce a Study Overview Matrix — a single sheet combining all matrices, showing all forms for each visit. The first generated form (from CRFDraft) is highlighted in green, and forms added by an “AddForms” action are in red.
+
+Generate a Data Validation Plan (DVP) — an Excel file with five columns:
+
+Check name
+
+Condition(s)
+
+Action(s)
+
+Associated form(s)
+
+Associated folder(s)
+
+This made it possible for CDMs to quickly understand the structure of a study without manually piecing information together.
+
+Project 2: Extracting Eligibility Criteria from Study Protocols
+Every clinical study is defined in a protocol document, which describes the study’s environment, methodology, and procedures. This document is often over 200 pages long and includes the eligibility criteria — the inclusion and exclusion rules for patient participation.
+
+Currently, CDMs have to read through the document and copy these criteria manually, which takes time. The aim of this project was to create a tool that could automatically locate and extract these sections.
+
+The starting point for this work was the protocol PDF, which is generally well structured and includes a table of contents. By using this structure, the tool could go directly to the eligibility criteria section and retrieve the relevant text, saving the CDMs considerable time.
