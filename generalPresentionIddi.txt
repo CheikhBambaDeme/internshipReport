@@ -1,0 +1,96 @@
+General Presentation of IDDI Belgium
+1. Company Overview
+IDDI (International Drug Development Institute) is a Belgian company specialized in biostatistics and clinical data management, considered a high-expertise CRO (Contract Research Organization).
+It supports clients in the design, management, and analysis of clinical trials, all the way to regulatory submission with agencies such as the FDA and EMA.
+
+Therapeutic areas: strong expertise in oncology, ophthalmology, central nervous system (CNS) disorders, rare diseases, as well as cardiology, immunology, infectious diseases, and inflammatory diseases.
+
+History:
+
+1991: founded in Brussels by Marc Buyse, ScD.
+
+2001: adoption of the name IDDI.
+
+2006: headquarters moved to Louvain-la-Neuve.
+
+Expansion to the USA (Cambridge, Houston, Raleigh).
+
+Key figures: over 30 years of expertise, 1,445 clinical trials conducted, more than 350 clients worldwide, around 110 employees.
+
+Positioning: IDDI stands out for its scientific expertise, high-quality analyses, and proprietary technological solutions (ID-net™, ID-supply™, ID-code™, TrialControl™).
+
+2. Company Structure and Organization
+Legal form: Public Limited Company (Société Anonyme – SA), registered in Belgium under number 0436.264.032.
+
+Headquarters: Avenue Provinciale 30, 1341 Ottignies-Louvain-la-Neuve, Belgium.
+
+Shareholding: founder Marc Buyse, SRIW (20%), management (10%).
+
+Locations: Belgium (HQ), USA (Raleigh, NC).
+
+Internal organization:
+
+Executive Management – strategy and business development.
+
+Biostatistics & Methodology – study design, regulatory analyses.
+
+Clinical Data Management (CDM) – data handling and quality control.
+
+RTSM & Technology Solutions – randomization, supply logistics.
+
+Administration & Support – finance, HR, client support.
+
+3. Summary of Main Functions (simplified organizational chart)
+Function	Role
+CEO – Tim Davis	Strategic direction, development, innovation
+CCO – Jeremy Edwards	Business expansion, client relationships
+CSO – Marc Buyse	Scientific leadership and research
+Biostatisticians	Study design and statistical analysis
+CDM Team	Clinical data management and validation
+RTSM Team	Randomization and supply management
+IT & Dev	Tool development and maintenance
+Support & Admin	Administration, finance, HR
+
+Department and Internship Description
+4. Detailed Presentation of the CDM Department
+The Clinical Data Management department is responsible for managing the entire life cycle of clinical trial data, from capture to readiness for statistical analysis.
+Its missions include:
+
+Configuring and managing Electronic Data Capture (EDC) systems.
+
+Performing data quality control and cleaning through query management.
+
+Ensuring compliance with international standards (ICH-GCP, CDISC).
+
+Collaborating with biostatistics, project managers, and monitoring teams to ensure reliable and compliant datasets.
+
+5. Internship Role and Missions
+During my internship within the CDM team, I worked on two main projects:
+
+Project 1 – Development of a Clinical Study Overview Web Tool
+Objective: design an internal web application enabling teams to have a synthetic and interactive view of a clinical study (progress, KPIs, data status).
+
+Tasks performed:
+
+Gathering requirements from internal users (CDM, project managers).
+
+Designing the architecture and selecting web technologies.
+
+Developing the front-end and integrating with existing databases.
+
+Performing functional testing and internal deployment.
+
+Project 2 – Text Extraction using Artificial Intelligence
+Objective: automate the extraction of relevant sections from clinical trial documents (protocols, reports…).
+
+Tasks performed:
+
+Document preparation and preprocessing.
+
+Applying NLP model tailored to the medical domain.
+
+Evaluating and optimizing model performance.
+
+Writing technical documentation and handing over the solution to the CDM team.
+
+Skills applied: web development (HTML, CSS, JavaScript, Python), handling and structuring clinical data, NLP techniques for the medical field, understanding of the clinical trial lifecycle.
