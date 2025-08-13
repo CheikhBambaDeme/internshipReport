@@ -1,0 +1,11 @@
+Clinical trials play a crucial role in the medical field. Before new drugs or treatments can be made available to the public, they must undergo rigorous validation to ensure safety and effectiveness, as errors could put lives at risk. This is a highly regulated domain where Clinical Data Managers (CDMs) must meticulously review data to prevent mistakes that could lead to biased, inaccurate, or misinterpreted results.
+
+Efficiency is also a key concern. To remain competitive, companies need to minimize the time spent billing sponsors while maintaining high-quality work. This has driven the search for ways to automate repetitive tasks, especially in an era where artificial intelligence is increasingly present across industries. By leveraging automation, companies can reduce costs and improve productivity.
+
+However, this approach raises important questions:
+
+Does automation affect the reliability of the data?
+
+Do these tools truly reduce the time spent on repetitive manual tasks?
+
+These are the challenges faced by companies specializing in clinical trials, including IDDI. In the following sections, I will present the company, describe the context and the general problem, explain the methods I used, and finally, showcase the results of the two tools I developed to help IDDI save time and improve efficiency in document processing.
